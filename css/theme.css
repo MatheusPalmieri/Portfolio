@@ -1,0 +1,17 @@
+/* ====== */
+/* Light */
+/* ====== */
+
+.theme-light {
+    --background: #F7F0E8;
+
+    --color-primary: #4012cb;
+}
+
+/* ====== */
+/* Dark */
+/* ====== */
+
+.theme-dark {
+    --background: black;
+}
