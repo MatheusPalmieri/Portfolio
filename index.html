@@ -9,7 +9,7 @@
 
     <!-- CSS -->
     <!-- Normalize -->
-
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <!-- Global Styles -->
     <link rel="stylesheet" href="css/global.css">
     <!-- Theme Light/Dark -->
@@ -26,7 +26,9 @@
 
 <!-- Header -->
 
-<header id="inicio" class="header">
+<div class="ajuste" id="inicio"></div>
+
+<header class="header">
 
     <div class="inicio">
 
@@ -47,17 +49,13 @@
                 <!-- Navegação Site -->
                     
                 <div class="menu">
-                    
-                    <!-- Hamburguer Menu -->
-
-                    <div class="head-menu-hamburguer"></div>
 
                     <!-- Menu -->
                     
                     <div class="head-navegation">
                         <ul>
                             <li><a href="#inicio">Inicio</a></li>
-                            <!-- <li><a href="#skills">Skills</a></li> -->
+                            <li><a href="#skills">Skills</a></li>
                             <li><a href="#projetos">Projetos</a></li>
                             <li><a href="#contato">Contato</a></li>
                         </ul>
@@ -68,7 +66,7 @@
                 <!-- Logo Bird -->
                 
                 <div class="head-logo">
-                    <a href="#inicio">
+                    <a href="index.html">
                         <img src="image/bird.svg" class="logo-bird" alt="Logo Pássaro" type="image/svg">
                     </a>
                 </div>
@@ -149,19 +147,19 @@
 
 <!-- Em Desenvolvimento -->
 <!-- Skills -->
-<section id="skills" class="display-none">
-    <article>
-        <!-- Colocar :before com aspas editada -->
+<section id="skills">
+    <article class="skills">
+        
         <h2>Skills</h2>
 
         <p></p>
-        <!-- Abre aba com explição -->
+
     </article>
 </section>
 
 <!-- Projetos / Max. 3 colunas -->
 
-<main id="projetos">
+<main id="projetos" class="projects-main">
     <section>
         <article>
             <div class="projects-title">
@@ -184,8 +182,8 @@
                             Projeto desenvolvido em React, uso de API de imagens, 
                             títulos e textos para criar cards.
                         </p>
-                        <p class="project-tecnologia">
-                            Tecnologias utilizadas, "React", "API" e "CSS".
+                        <p class="project-tecnologic">
+                            Tecnologias: "React", "API" e "CSS".
                         </p>
                     </div>
                 </div> <!-- project-01 -->
@@ -201,8 +199,8 @@
                             Projeto desenvolvido em React, uso de API de imagens, 
                             títulos e textos para criar cards.
                         </p>
-                        <p class="project-tecnologia">
-                            Tecnologias utilizadas, "React", "API" e "CSS".
+                        <p class="project-tecnologic">
+                            Tecnologias: "React", "API" e "CSS".
                         </p>
                     </div>
                 </div> <!-- project-02 -->
@@ -218,8 +216,8 @@
                             Projeto desenvolvido em React, uso de API de imagens, 
                             títulos e textos para criar cards.
                         </p>
-                        <p class="project-tecnologia">
-                            Tecnologias utilizadas, "React", "API" e "CSS".
+                        <p class="project-tecnologic">
+                            Tecnologias: "React", "API" e "CSS".
                         </p>
                     </div>
                 </div> <!-- project-03 -->
@@ -235,8 +233,8 @@
                             Projeto desenvolvido em React, uso de API de imagens, 
                             títulos e textos para criar cards.
                         </p>
-                        <p class="project-tecnologia">
-                            Tecnologias utilizadas, "React", "API" e "CSS".
+                        <p class="project-tecnologic">
+                            Tecnologias: "React", "API" e "CSS".
                         </p>
                     </div>
                 </div> <!-- project-03 -->
@@ -252,8 +250,8 @@
                             Projeto desenvolvido em React, uso de API de imagens, 
                             títulos e textos para criar cards.
                         </p>
-                        <p class="project-tecnologia">
-                            Tecnologias utilizadas, "React", "API" e "CSS".
+                        <p class="project-tecnologic">
+                            Tecnologias: "React", "API" e "CSS".
                         </p>
                     </div>
                 </div> <!-- project-03 -->
@@ -269,8 +267,8 @@
                             Projeto desenvolvido em React, uso de API de imagens, 
                             títulos e textos para criar cards.
                         </p>
-                        <p class="project-tecnologia">
-                            Tecnologias utilizadas, "React", "API" e "CSS".
+                        <p class="project-tecnologic">
+                            Tecnologias: "React", "API" e "CSS".
                         </p>
                     </div>
                 </div> <!-- project-03 -->
@@ -290,7 +288,7 @@
 <!-- Contato -->
 
 <section id="contato">
-    <article>
+    <article class="contato-container">
         
         <!-- Formulário -->
 
@@ -325,23 +323,23 @@
         
         <div class="social-media">
             <ul>
-                <li><a href="https://www.instagram.com/matheuspalmierigt/" target="_blank">Instagram</a></li>
-                <li><a href="https://www.youtube.com/channel/UCdTM7yBDU5Iwavc5b8QaXQg" target="_blank">YouTube</a></li>
                 <li><a href="https://github.com/MatheusPalmieri" target="_blank">GitHub</a></li>
                 <li><a href="https://www.linkedin.com/in/matheusandrepalmieri/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.youtube.com/channel/UCdTM7yBDU5Iwavc5b8QaXQg" target="_blank">YouTube</a></li>
+                <li><a href="https://www.instagram.com/matheuspalmierigt/" target="_blank">Instagram</a></li>
             </ul>
         </div>
         
         <div class="copy">
-            <h6>Matheus Palmieri, &copy; 2022.</h6>
+            <h4>Matheus Palmieri, &copy; 2022.</h4>
         </div>
     </div>
 </footer>
-</body>
 
 <!-- Link Scripts -->
 
 <!-- Theme -->
 <script src="javascript/theme.js"></script>
 
+</body>
 </html>

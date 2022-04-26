@@ -1,17 +1,71 @@
-/* ====== */
-/* Light */
-/* ====== */
+/* ========= */
+/*   Light   */
+/* ========= */
 
 .theme-light {
-    --background: #F7F0E8;
 
-    --color-primary: #4012cb;
+    /* Background */
+    --nav-background: #fdfaf2;
+    --home-background: #F7F3E9;
+    --skills-background: #fdfaf2;
+    --projects-background: #F7F3E9;
+    --contact-background: #fdfaf2;
+    --footer-background: #fdfaf2;
+
+    /* Title */
+    --title: #0D0D0D;
+    --paragraph: #949898;
+
+    /* Button */
+    --button-primary: #5efff9;
+
+    /* Link */
+    --link-primary: #949898;
+
+    /* Formuçário */
+    /* temp */
+    --background-form: #0D0D0D;
+    --background-form-border-outline: #5efff9;
+    --form-text: #F7F3E9;
+
+
+    --project-tecnologic: #0FC2C0;
+
+    --color-primary: #0FC2C0;
 }
 
-/* ====== */
-/* Dark */
-/* ====== */
+/* ======== */
+/*   Dark   */
+/* ======== */
 
 .theme-dark {
-    --background: black;
+
+    /* Background */
+    --nav-background: #0b0b0b;
+    --home-background: #0D0D0D;
+    --skills-background: #0b0b0b;
+    --projects-background: #0D0D0D;
+    --contact-background: #0b0b0b;
+    --footer-background: #0b0b0b;
+
+    /* Title */
+    --title: #EBEFF2;
+    --paragraph: #EDD0EB;
+
+    /* Button */
+    --button-primary: #5efff9;
+
+    /* Link */
+    --link-primary: #949898;
+
+    /* Formuçário */
+    /* temp */
+    --background-form: #F7F3E9;
+    --background-form-border-outline: #5efff9;
+    --form-text: #0b0b0b;
+
+
+    --project-tecnologic: #0FC2C0;
+
+    --color-primary: #0FC2C0;
 }

@@ -12,20 +12,28 @@
 /* Header */
 /* ====== */
 
+.ajuste {
+    width: 100%;
+    height: 100px;
+    /* background-color: var(--home-background); */
+    background-color: red;
+}
 .header {
+    background-color: var(--home-background);
     height: 768px;
 }
 
 .nav {
-    background-color: azure;
+    background-color: var(--nav-background);
+    /* display: none; */
     position: fixed;
     top: 0;
     width: 100%;
     height: 100px;
+    border-bottom: solid 2px var(--color-primary);
 }
 
 .head-nav {
-    /* position: relative; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,9 +50,6 @@
 
 /* Header MIddle */
 
-.head-middle {
-    margin-top: 200px;
-}
 
 /* Navegation */
 
@@ -58,8 +63,8 @@
 .head-navegation a {
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
-    transition: .2s ease-in-out;
+    color: var(--link-primary);
+    transition: all .5s ease-in-out;
 
 }
 
@@ -89,12 +94,14 @@
 /* Text */
 
 .middle-title h1{
+    color: var(--title);
     font-size: 50px;
     font-weight: 600;
     line-height: 1;
 }
 
 .middle-title p{
+    color: var(--paragraph);
     font-size: 18px;
     line-height: 1.3;
     margin-top: 10px;
@@ -114,28 +121,34 @@
     margin-right: 50px;
     width: 125px;
     height: 40px;
-    border: #4012cb 2px solid;
+    border: var(--button-primary) 2px solid;
     border-radius: 40px;
     transition: all .5s ease-in-out;
+    /* background-color: var(--button-primary); */
 }
 
 .button:hover {
-    color: white;
-    background-color: #4012cb;
+    background-color: var(--button-primary);
 }
 
 .button-link {
-    color: black;
+    color: var(--link-primary);
     text-decoration: none;
+}
+
+.skills {
+    background-color: var(--skills-background);
+    height: 768px;
 }
 
 /* Projects */
 
-h3 {
-    background-color: red;
+.projects-main {
+    background-color: var(--projects-background);
 }
 
 h2 {
+    color: var(--title);
     text-transform: uppercase;
     text-align: center;
     font-size: 30px;
@@ -145,22 +158,42 @@ h2 {
 .projects {
     display: grid;
     grid-template-columns: repeat(3, 300px);
-    gap: 30px;
+    gap: 50px;
     justify-content: center;
 }
 
 .project-img img {
     width: 300px;
     height: 200px;
-    margin-bottom: 50px;
     border-radius: 25px;
     background-color: var(--color-primary);
 } 
 
+.project-title {
+    color: var(--title);
+    text-align: center;
+    margin-top: 4px;
+    font-size: 20px;
+}
+
+.project-description {
+    color: var(--paragraph);
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.project-tecnologic {
+    color: var(--project-tecnologic);
+    text-align: start;
+    font-size: 15px;
+}
+
 /* Form */
 
-.contato {
+.contato-container {
+    background-color: var(--contact-background);
     margin-top: 50px;
+    height: 668px;
 }
 
 .form {
@@ -184,26 +217,35 @@ h2 {
 } 
 
 .name, .email, .text {
-    outline: none;
+    border: none;
+    outline: var(--background-form-border-outline);
     border-radius: 15px;
+    color: var(--form-text);
+    transition: border .125s;
+}
+
+.name:focus, 
+.email:focus, 
+.text:focus {
+    border: var(--background-form-border-outline) 2px solid;
 }
 
 .form-flex input, textarea {
     padding-left: 15px;
     font-size: 18px;
-    background-color: #4012cb;
+    background-color: var(--background-form);
 }
 
 textarea {
     padding-top: 15px;
 }
 
-
 /* Footer */
 
 .footer {
     margin-top: 50px;
-    background-color: azure;
+    background-color: var(--footer-background);
+    /* background-color: red; */
     width: 100%;
     height: 100px;
 }
@@ -220,6 +262,9 @@ textarea {
 }
 
 .copy {
+    color: var(--title);
+    text-decoration: none;
+    font-weight: 100;
     margin-top: 25px;
     text-align: center;    
 }
