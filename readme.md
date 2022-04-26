@@ -23,7 +23,7 @@
  <a href="https://matheuspalmieri.github.io/Portfolio/">Site Do Projeto</a>
 </p>
 
-<img src="animation.gif" width="1366px" align="center">
+<!-- <img src="animation.gif" width="1366px" align="center"> -->
 
 <!-- Atualizações -->
 
