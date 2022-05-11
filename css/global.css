@@ -19,4 +19,5 @@
 body {
     font-family: "Nunito", "Work Sans", "Poppins", sans-serif;
     background-color: var(--background);
+    background-color: chartreuse;
 }

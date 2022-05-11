@@ -1,3 +1,7 @@
+*, body, html {
+    box-sizing: border-box;
+}
+
 .display-none {
     display: none;
 }
@@ -138,7 +142,7 @@
 
 .skills {
     background-color: var(--skills-background);
-    height: 768px;
+    /* height: 768px; */
 }
 
 /* Projects */
@@ -152,7 +156,7 @@ h2 {
     text-transform: uppercase;
     text-align: center;
     font-size: 30px;
-    margin-bottom: 50px;
+    padding: 50px 0;
 }
 
 .projects {
@@ -188,12 +192,15 @@ h2 {
     font-size: 15px;
 }
 
+.projects-container {
+    padding-bottom: 50px;
+}
+
 /* Form */
 
 .contato-container {
     background-color: var(--contact-background);
-    margin-top: 50px;
-    height: 668px;
+    padding-bottom: 50px;
 }
 
 .form {
@@ -243,9 +250,7 @@ textarea {
 /* Footer */
 
 .footer {
-    margin-top: 50px;
     background-color: var(--footer-background);
-    /* background-color: red; */
     width: 100%;
     height: 100px;
 }
