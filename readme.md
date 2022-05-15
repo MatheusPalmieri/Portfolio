@@ -20,7 +20,7 @@
 <h2 align="center">Site</h2>
 
 <p align="center">
- <a href="https://logindark-matheuspalmieri.netlify.app//">Site Do Projeto</a>
+ <a href="https://matheuspalmieri.github.io/Portfolio/">Site Do Portfolio</a>
 </p>
 
 <!-- Atualizações -->
@@ -37,7 +37,7 @@
 
 ### Rodando A Aplicação
 
-<a href="https://logindark-matheuspalmieri.netlify.app//">Site Do Projeto</a>
+<a href="https://matheuspalmieri.github.io/Portfolio/">Site Do Portfolio</a>
 
 ---
 
