@@ -4,7 +4,7 @@
 
 <!-- Descrição -->
 
-<p align="center">POrtfolio pessoal desenvolvido para mostrar projetos com mais facilidades.</p>
+<p align="center">Portfolio pessoal desenvolvido para mostrar projetos com mais facilidades.</p>
 
 <!-- Súmario -->
 
