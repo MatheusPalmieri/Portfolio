@@ -2,6 +2,8 @@
 
 <h1 align="center">Portfolio Matheus Palmieri</h1>
 
+<p align="center">EM DESENVOLIMENTO</p>
+
 <!-- Descrição -->
 
 <p align="center">Portfolio pessoal desenvolvido para mostrar projetos com mais facilidades.</p>
