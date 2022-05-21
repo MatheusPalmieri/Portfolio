@@ -13,11 +13,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: red; */
 }
 
 body {
     font-family: "Nunito", "Work Sans", "Poppins", sans-serif;
     background-color: var(--background);
-    background-color: chartreuse;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block;
 }

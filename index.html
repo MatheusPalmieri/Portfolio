@@ -11,9 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+    <!-- Font Awesome / Icons -->
+    <script src="https://kit.fontawesome.com/12279e116a.js" crossorigin="anonymous"></script>
+
     <!-- CSS -->
-    <!-- Normalize -->
-    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <!-- Global Styles -->
     <link rel="stylesheet" href="css/global.css">
     <!-- Theme Light/Dark -->
@@ -24,11 +25,15 @@
 <body class="theme-light">
 
 <!-- Header -->
+<a href="#inicio" class="home">
+    <div class="button-home">
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+</a>
 
 <header class="header" id="inicio">
 
     <div class="inicio">
-
         <!-- Header -->
 
         <nav class="nav">
@@ -37,12 +42,12 @@
                 <!-- Dark/White Mode -->
                
                 <div class="header-theme">
-                    <label for="theme">
-                        <img src="image/Lua.svg" class="theme-img " id="image-theme" alt="Lua, indicando a opção de tema escuro">
+                    <label for="theme" class="theme-color">
+                        <img src="image/Lua.svg" class="theme-img" id="image-theme" alt="Lua, indicando a opção de tema escuro">
                     </label>
                     <input type="checkbox" name="theme" class="display-none" id="theme">
                 </div>
-
+                
                 <!-- Navegação Site -->
                     
                 <div class="menu">
@@ -51,7 +56,7 @@
                     
                     <div class="head-navegation">
                         <ul>
-                            <li><a href="#inicio">Inicio</a></li>
+                            <li><a href="">Inicio</a></li>
                             <!-- <li><a href="#skills">Skills</a></li> -->
                             <li><a href="#projetos">Projetos</a></li>
                             <li><a href="#contato">Contato</a></li>
@@ -156,135 +161,16 @@
 
 <!-- Projetos / Max. 3 colunas -->
 
+
 <main id="projetos" class="projects-main">
-    <section class="projects-container">
-        <article>
-            <div>
-                <h2 class="projects-title">Projetos</h2>
-            </div>
-        </article>
-
-        <!-- Recentes -->
-
-        <article class="projects-article">
-            <div class="projects">
-                <div class="project-01 project-layout">
-                    <div class="project-img">
-                        <img src="projects/react-cards.png" alt="projeto React Cards">
-                    </div>
-                    <div class="project-text">
-                        <h3 class="project-title">React Cards</h3>
-
-                        <p class="project-description">
-                            Projeto desenvolvido em React, uso de API de imagens, 
-                            títulos e textos para criar cards.
-                        </p>
-                        <p class="project-tecnologic">
-                            Tecnologias: "React", "API" e "CSS".
-                        </p>
-                    </div>
-                </div> <!-- project-01 -->
-                
-                <div class="project-02 project-layout">
-                    <div class="project-img">
-                        <img src="projects/react-cards.png" alt="projeto React Cards">
-                    </div>
-                    <div class="project-text">
-                        <h3 class="project-title">React Cards</h3>
-
-                        <p class="project-description">
-                            Projeto desenvolvido em React, uso de API de imagens, 
-                            títulos e textos para criar cards.
-                        </p>
-                        <p class="project-tecnologic">
-                            Tecnologias: "React", "API" e "CSS".
-                        </p>
-                    </div>
-                </div> <!-- project-02 -->
-
-                <div class="project-03 project-layout">
-                    <div class="project-img">
-                        <img src="projects/react-cards.png" alt="projeto React Cards">
-                    </div>
-                    <div class="project-text">
-                        <h3 class="project-title">React Cards</h3>
-
-                        <p class="project-description">
-                            Projeto desenvolvido em React, uso de API de imagens, 
-                            títulos e textos para criar cards.
-                        </p>
-                        <p class="project-tecnologic">
-                            Tecnologias: "React", "API" e "CSS".
-                        </p>
-                    </div>
-                </div> <!-- project-03 -->
-
-                <div class="project-03 project-layout">
-                    <div class="project-img">
-                        <img src="projects/react-cards.png" alt="projeto React Cards">
-                    </div>
-                    <div class="project-text">
-                        <h3 class="project-title">React Cards</h3>
-
-                        <p class="project-description">
-                            Projeto desenvolvido em React, uso de API de imagens, 
-                            títulos e textos para criar cards.
-                        </p>
-                        <p class="project-tecnologic">
-                            Tecnologias: "React", "API" e "CSS".
-                        </p>
-                    </div>
-                </div> <!-- project-03 -->
-
-                <div class="project-03 project-layout">
-                    <div class="project-img">
-                        <img src="projects/react-cards.png" alt="projeto React Cards">
-                    </div>
-                    <div class="project-text">
-                        <h3 class="project-title">React Cards</h3>
-
-                        <p class="project-description">
-                            Projeto desenvolvido em React, uso de API de imagens, 
-                            títulos e textos para criar cards.
-                        </p>
-                        <p class="project-tecnologic">
-                            Tecnologias: "React", "API" e "CSS".
-                        </p>
-                    </div>
-                </div> <!-- project-03 -->
-
-                <div class="project-03 project-layout">
-                    <div class="project-img">
-                        <img src="projects/react-cards.png" alt="projeto React Cards">
-                    </div>
-                    <div class="project-text">
-                        <h3 class="project-title">React Cards</h3>
-
-                        <p class="project-description">
-                            Projeto desenvolvido em React, uso de API de imagens, 
-                            títulos e textos para criar cards.
-                        </p>
-                        <p class="project-tecnologic">
-                            Tecnologias: "React", "API" e "CSS".
-                        </p>
-                    </div>
-                </div> <!-- project-03 -->
-                
-            </div>
-        </article>
-
-        <!-- Ver Mais -->
-        <!-- Em Desenvolvimento -->
-
-        <article class="display-none">
-            <button>Ver Mais</button>
-        </article>
-    </section>
+    <div id="inject-projects">
+        <!-- Inject JS -->
+    </div>
 </main>
 
 <!-- Contato -->
 
-<section id="contato">
+<section>
     <article class="contato-container">
         
         <!-- Formulário -->
@@ -307,6 +193,8 @@
                 <!-- Mensagem -->
                 <label for="name"></label>
                 <textarea class="text" placeholder="Envie-nos uma mensagem."></textarea>
+
+                <input type="submit" value="Enviar" class="button-send">
             </form>
         </div>
     </article>
@@ -314,16 +202,15 @@
 
 <!-- Rodapé -->
 
-<footer>
+<footer id="contato">
     <div class="footer">
         <!-- Redes Socias -->
-        
         <div class="social-media">
             <ul>
-                <li><a href="https://github.com/MatheusPalmieri" target="_blank">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/matheusandrepalmieri/" target="_blank">LinkedIn</a></li>
-                <li><a href="https://www.youtube.com/channel/UCdTM7yBDU5Iwavc5b8QaXQg" target="_blank">YouTube</a></li>
-                <li><a href="https://www.instagram.com/matheuspalmierigt/" target="_blank">Instagram</a></li>
+                <li><a href="https://github.com/MatheusPalmieri" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/matheusandrepalmieri/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCdTM7yBDU5Iwavc5b8QaXQg" target="_blank"><i class="fa-duotone fa-play"></i></a></li>
+                <li><a href="https://www.instagram.com/matheuspalmierigt/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
             </ul>
         </div>
         
@@ -335,11 +222,11 @@
 
 <!-- Link Scripts -->
 
-<!-- Button Navegation -->
-<script src="javascript/navegation.js"></script>
-
 <!-- Theme -->
 <script src="javascript/theme.js"></script>
+
+<!-- Projects -->
+<script src="javascript/projects.js"></script>
 
 </body>
 </html>

@@ -3,7 +3,7 @@
 /* ========= */
 
 .theme-light {
-
+    
     /* Background */
     --nav-background: #fdfaf2;
     --home-background: #F7F3E9;
@@ -14,21 +14,21 @@
 
     --projects-background: #fdfaf2;
     --contact-background: #F7F3E9;
-    --footer-background: rgb(215, 214, 212);
+    --footer-background: #fdfaf2;
 
     /* Title */
     --title: #0D0D0D;
     --paragraph: #949898;
 
     /* Button */
-    --button-primary: #5efff9;
+    --button-primary: #27DEBF;
 
     /* Link */
     --link-primary: #949898;
 
     /* Formuçário */
     /* temp */
-    --form-border: #5efff9;
+    --form-border: #27DEBF;
     --form-border-focus: #06807d;
     --form-text: #949898;
 
@@ -36,6 +36,7 @@
     --project-tecnologic: #0FC2C0;
 
     --color-primary: #0FC2C0;
+    --light: #105549;
 }
 
 /* ======== */
@@ -47,9 +48,13 @@
     /* Background */
     --nav-background: #0b0b0b;
     --home-background: #0D0D0D;
-    --skills-background: #0b0b0b;
-    --projects-background: #0D0D0D;
-    --contact-background: #0b0b0b;
+
+    /* --skills-background: #0b0b0b; */
+    /* --projects-background: #0D0D0D; */
+    /* --contact-background: #0b0b0b; */
+
+    --projects-background: #0b0b0b;
+    --contact-background: #0D0D0D;
     --footer-background: #0b0b0b;
 
     /* Title */
@@ -57,18 +62,19 @@
     --paragraph: #EDD0EB;
 
     /* Button */
-    --button-primary: #5efff9;
+    --button-primary: #27DEBF;
 
     /* Link */
     --link-primary: #949898;
 
     /* Formuçário */
     /* temp */
-    --background-form-border: #5efff9;
-    --form-text: #0b0b0b;
-
+    --form-border: #27DEBF;
+    --form-border-focus: #06807d;
+    --form-text: #949898;
 
     --project-tecnologic: #0FC2C0;
 
     --color-primary: #0FC2C0;
+    --light: #fff;
 }

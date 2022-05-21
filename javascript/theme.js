@@ -17,3 +17,5 @@ function check() {
         imageTheme.src = 'image/Lua.svg'
     }
 }
+
+// Dois primeiros são o chão do  svg, alterar por js quando trocar tema

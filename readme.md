@@ -2,11 +2,9 @@
 
 <h1 align="center">Portfolio Matheus Palmieri</h1>
 
-<p align="center">EM DESENVOLIMENTO</p>
-
 <!-- Descrição -->
 
-<p align="center">Portfolio pessoal desenvolvido para mostrar projetos com mais facilidades.</p>
+<p align="center">POrtfolio pessoal desenvolvido para mostrar projetos com mais facilidades.</p>
 
 <!-- Súmario -->
 
@@ -22,7 +20,7 @@
 <h2 align="center">Site</h2>
 
 <p align="center">
- <a href="https://matheuspalmieri.github.io/Portfolio/">Site Do Portfolio</a>
+ <a href="https://logindark-matheuspalmieri.netlify.app//">Site Do Projeto</a>
 </p>
 
 <!-- Atualizações -->
@@ -39,7 +37,7 @@
 
 ### Rodando A Aplicação
 
-<a href="https://matheuspalmieri.github.io/Portfolio/">Site Do Portfolio</a>
+<a href="https://logindark-matheuspalmieri.netlify.app//">Site Do Projeto</a>
 
 ---
 
@@ -60,5 +58,5 @@ Create for <b>`Matheus Palmieri`</b>👨‍💻
 <br>
 <br>
 
-<p align="center">🎉 Portfolio Pessoal 🚀</p>
+<p align="center">🎉Portfolio Pessoal🚀</p>
 
